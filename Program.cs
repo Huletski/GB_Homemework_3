@@ -15,6 +15,10 @@ int number = int.Parse(Console.ReadLine());
 
 */
 
+
+
+
+
 // task2 Подсчитать сумму цифр в числе
 /*
 int num = ReadingEntrance("Please, Enter Number: ");
@@ -52,6 +56,10 @@ void SumOfNumbers(int n, int len)
 
 */
 
+
+
+
+
 //task3 Написать программу вычисления произведения чисел от 1 до N
 
 /*
@@ -69,3 +77,25 @@ for ( ;count <= number;)
 Console.WriteLine($"Product of numbers from 1 to {number}: {result}");
 
 */
+
+
+
+
+
+
+//task4 Показать кубы чисел, заканчивающихся на четную цифру
+
+Console.WriteLine("Please, enter number:");
+int numer = int.Parse(Console.ReadLine());
+
+int z = 1;
+while (z <= numer)
+{
+  if (z % 2 == 0)
+  {
+   int result = z * z * z;
+   Console.WriteLine($"{z}^3 = {result} ");
+  }
+  z++;
+}
+
