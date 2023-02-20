@@ -49,3 +49,23 @@ void SumOfNumbers(int n, int len)
    }
    Console.WriteLine(sum);
 }
+
+*/
+
+//task3 Написать программу вычисления произведения чисел от 1 до N
+
+/*
+Console.WriteLine("Please, enter number:");
+int number = int.Parse(Console.ReadLine());
+
+int result = 1;
+int count = 1;
+for ( ;count <= number;)
+ {
+    result = count*result;
+    count++;
+ }
+
+Console.WriteLine($"Product of numbers from 1 to {number}: {result}");
+
+*/
